@@ -1,0 +1,24 @@
+make sure to create instructions to self after you
+finish you practice binary tree, not only the normal way but also in a condensed way that you can remember for the test like discussed in class.
+
+Binary tree:
+-create the structure for the binary tree.
+-next you need the function to add nodes like a linked list using the que method.
+-note: you cannot inialize counts in the structure
+def.
+-the logic for the binary tree is nessary, why else would you make it if it did not have some kind of order
+-next you write the function that actualy makes the tree and uses the add node function as a tool.
+-you will need an if/else and then an if/else for the first one's if and its else i.e 3 if/else total.
+-you do not need to return anything in this function.
+-you should pass in the root node(which should be a pointer), and the value you wish to place in the tree.
+-you will be taking care of makeing sure that root is poputated with at least one node outside the tree function, so when writing assume that when the tree function resives root it already has atleast one node. :)
+-in the outer if/else statments you will be checking if(lessThen)/elseIf(greaterThan)
+for what ever value type you are woring with.**Remember, if less than, go left and if greater than, go right.  Inside those, using the other two if/elses, you will be asking if the left or right connection is NULL or not.  if(==NULL) then addnode, putting the newest value in this new node, else recursivly call the Binary Tree function to go deeper.
+-for what you are doing, because you are using string literals and they point the the first character in a string you do not need to allocat memory staticly for a 2D array, only 1D, all it stores are addresses.
+-next you would right a function to print the binary tree. When writing this function dont forget the stopping condidion "if(root != NULL). we assume that root will not be passed in equal to NULL.  The function will work recursivly and print. (if root was equal to NULL from the start there is nothing to print anyway and you may have made a mistake)
+
+
+every node should have a call to malloc
+call malloc
+allocate memeoty for the node and the word itself then
+one for the node and one for the memory in the node

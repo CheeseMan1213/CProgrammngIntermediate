@@ -1,0 +1,6 @@
+you learned how to change the comment color
+the displayed in your 'c' files by adding the line: hi Comment ctermfg="somecolor"(you put yellow) case and spacing matter. to you .vimrc config file
+
+you learned to change the defult color that directories are displayed in in the terminal when you type 'ls'.  here you need to copy the system DIR_COLORS file located (maybe) in the etc/profile directory to your home directory and then changes its name to ".dir_colors".  this allows your config file to override the system config here. man pages that helped with this where 
+man 1 dircolors
+man 5 dir_colors

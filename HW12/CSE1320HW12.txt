@@ -1,0 +1,7 @@
+-the structure itself must be dynamicly allocated
+-I think you should try and do a hash table just so you can get some practice with it since it is very new.
+-that 300 char is for the buffer, char buffer[300]
+
+-each time you print a number it shouls always be increaseing.
+-when we read a file we want to find a way to ignor the first line.
+-only have one sum and just print it only after each time it goes to the next range

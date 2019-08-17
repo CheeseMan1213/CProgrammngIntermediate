@@ -1,0 +1,2 @@
+the whole thing is stick in a while loop
+and maybe I need to be reassigning tail in the 'stop' loop

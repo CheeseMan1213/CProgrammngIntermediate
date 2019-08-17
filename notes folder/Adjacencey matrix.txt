@@ -1,0 +1,11 @@
+first I am going to try and do it the way I think
+I understand it 
+then tak a look at the teachers code
+
+Remember that you need to be able to go across and down, so the source node need a pointer the next 
+source node and to the next regular node
+
+1. create first 2D node
+2. go down adding on 1D nodes 0 to 9
+3.attatch a new 2D node to the old one;
+4. go down this new node 10 to 19

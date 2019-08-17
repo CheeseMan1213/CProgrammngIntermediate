@@ -1,0 +1,2 @@
+use nested loops for making you adjacentcy list work.
+and also remember the way you had to change to tail to make your program work. after you make the first source node, the rest of the source nodes are considered the tail as they are created.  Every time you make a new source node it is now the tail of the source nodes and is the one you will be adding the regular nodes to until you goto the next source node.
